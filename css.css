@@ -1,0 +1,36 @@
+.g-container {
+    width: 428px;
+    height: 1px;
+    display: flex;
+    align-items: flex-end;
+}
+.g-item {
+    flex-grow: 1;
+    z-index: -1;
+    background-image:  
+linear-gradient(135deg, #4b8afe 12.5%, transparent 12.5%),
+linear-gradient(225deg, #4b8afe 12.5%, transparent 12.5%),
+linear-gradient(225deg, #609bfe 25%, transparent 25%),
+linear-gradient(135deg, #609bfe 25%, transparent 25%),
+linear-gradient(225deg, #4b8afe 37.5%, transparent 37.5%),
+linear-gradient(135deg, #4b8afe 37.5%, transparent 37.5%),
+linear-gradient(135deg, #609bfe 50%, transparent 50%),
+linear-gradient(225deg, #609bfe 50%, transparent 50%),
+linear-gradient(135deg, #4b8afe 62.5%, transparent 62.5%),
+linear-gradient(225deg, #4b8afe 62.5%, transparent 62.5%);
+background-position:  
+0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+position: relative;
+background-size: 174px 58px;
+background-repeat: repeat;
+animation: bgAnimation 2s infinite linear normal;
+}
+.white-mask {
+width: 100%;
+height: 900px;
+top: 160px;
+left: 0;
+position: absolute;
+z-index: -1;
+background: linear-gradient(to bottom,rgba(255,255,255,0),#ebeffb);
+}
